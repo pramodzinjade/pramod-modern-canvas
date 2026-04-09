@@ -14,8 +14,8 @@ const ContactSection = () => (
         {/* Info cards */}
         <div className="space-y-6">
           {[
-            { icon: Mail, label: "Email", value: "pramod@example.com" },
-            { icon: Phone, label: "Phone", value: "+91 XXXXX XXXXX" },
+            { icon: Mail, label: "Email", value: "pramodzinjade71@gmail.com" },
+            { icon: Phone, label: "Phone", value: "+91 93701 12058" },
             { icon: MapPin, label: "Location", value: "India" },
           ].map((item) => (
             <div key={item.label} className="flex items-center gap-4 p-4 bg-background border border-border rounded-lg">

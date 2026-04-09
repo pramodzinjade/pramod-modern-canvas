@@ -51,7 +51,7 @@ const AboutSection = () => (
           </p>
           <div className="grid grid-cols-2 gap-4 pt-4">
             {[
-              { label: "Experience", value: "2+ Years" },
+              { label: "Experience", value: "Fresher" },
               { label: "Projects", value: "15+" },
               { label: "Certifications", value: "AWS" },
               { label: "Availability", value: "Open" },
