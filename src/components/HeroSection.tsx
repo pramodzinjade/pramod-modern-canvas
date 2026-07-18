@@ -66,7 +66,7 @@ const HeroSection = () => {
           <img
             src={profileImg.url}
             alt="Pramod Zinjade"
-            className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full object-cover profile-ring grayscale hover:grayscale-0 transition-all duration-500"
+            className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full object-cover object-center profile-ring transition-all duration-500"
           />
         </div>
       </div>
