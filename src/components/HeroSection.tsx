@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/profile.jpg.asset.json";
 import { Cloud, Server, Shield, Database } from "lucide-react";
 
 const words = ["Engineer", "Architect", "DevOps Pro", "Problem Solver"];
@@ -64,7 +64,7 @@ const HeroSection = () => {
           <div className="absolute w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full border-2 border-primary/20 animate-pulse" />
 
           <img
-            src={profileImg}
+            src={profileImg.url}
             alt="Pramod Zinjade"
             className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full object-cover profile-ring grayscale hover:grayscale-0 transition-all duration-500"
           />
