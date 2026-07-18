@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/profile.jpg.asset.json";
 import { Cloud, Server, Shield, Database } from "lucide-react";
 
 const words = ["Engineer", "Architect", "DevOps Pro", "Problem Solver"];
