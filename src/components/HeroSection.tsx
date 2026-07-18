@@ -54,19 +54,10 @@ const HeroSection = () => {
 
         {/* Right */}
         <div className="relative flex justify-center animate-fade-in-up delay-200" style={{ animationDelay: "0.3s" }}>
-          {/* Decorative icons */}
-          <Cloud className="absolute top-4 left-4 text-primary/30" size={28} />
-          <Server className="absolute bottom-8 left-8 text-primary/20" size={24} />
-          <Shield className="absolute top-12 right-4 text-primary/25" size={22} />
-          <Database className="absolute bottom-4 right-12 text-primary/20" size={26} />
-
-          {/* Decorative ring */}
-          <div className="absolute w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full border-2 border-primary/20 animate-pulse" />
-
           <img
             src={profileImg.url}
             alt="Pramod Zinjade"
-            className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full object-cover object-center profile-ring transition-all duration-500"
+            className="w-64 h-auto sm:w-72 lg:w-80 rounded-2xl object-cover object-center shadow-[var(--shadow-glow)] transition-all duration-500"
           />
         </div>
       </div>
